@@ -1,0 +1,6 @@
+# language: en
+Feature: Login in the Incidence Manager 
+
+  Scenario: Login is ok so user´s page is shown
+    When I try to login 
+    Then I should see the main user´s page
