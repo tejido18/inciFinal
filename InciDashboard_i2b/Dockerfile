@@ -1,5 +1,5 @@
 FROM maven:3.5-jdk-8-alpine
-MAINTAINER Alvaro Tejido Jardón <tejidojardon@gmail.com>
+MAINTAINER Alvaro Tejido Jardón <uo250821@uniovi.com>
 WORKDIR /usr/src/InciDashboard_i2b
 COPY . /usr/src/InciDashboard_i2b/
 RUN mvn package -Dmaven.test.skip=true

@@ -210,6 +210,7 @@ class Form {
             incident.moreInfo = [];
             incident.properties = {};
          });
+            window.location.href = "http://192.168.99.100:8081/incidents";
         }
         
         else {
